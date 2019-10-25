@@ -5,16 +5,13 @@ while True:
     teste = entrada[0]
     if teste == "ABEND":
         break
-
     elif teste == "SALIDA":
         carros += 1
         val = entrada[1]
         pessoas += int(val)
-
     else:
         carros -= 1
         val = entrada[1]
         pessoas -= int(val)
-
 print(pessoas)
 print(carros)
