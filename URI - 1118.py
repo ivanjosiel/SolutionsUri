@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 nota_soma = 0 
 cont = 0
 continuar = True
